@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-size: cover;
+    background-image:url(https://images.unsplash.com/photo-1538234996455-f602db299c05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+}
+
+
+
+header {
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+
+    background-color: #DB7093;
+    margin-left: 27%;
+    margin-right: 27%;
+
+    text-align: center;
+    padding: 10px ;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    font-style: oblique;
+
+
+}
+
+#zen-intro abbr{
+    color: blue;
+}
+
+#zen-summary p{
+    text-align: center;
+    font-size: 20px ;
+    color: white;
+    
+}
+
+#zen-preamble h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+#zen-preamble  {
+    color: black;
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white; 
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+#zen-preamble p {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#zen-preamble abbr {
+    color: blue;
+}
+
+#zen-explanation {
+    color: black;
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white; 
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+
+}
+#zen-explanation h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+#zen-participation {
+    color: black;
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white; 
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+
+}
+
+#zen-participation h3 {
+     text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#zen-benefits {
+    color: black;
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white; 
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+#zen-benefits h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#zen-requirements {
+    color: black;
+    background-color: #FFEBCD;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px white; 
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+#zen-requirements h3 {
+    text-align: center;
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+footer a {
+    background-color: #FF6699;
+    border-radius: 10px;
+    padding: 25px 45px;
+    transition: 0.5s;
+    text-decoraion: dotted;
+    font-size: 20px;
+
+}
+
+footer {
+    margin-left: 28%;
+    margin-bottom: 10%;
+}
+
+footer a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+}
+
+#design-selection {
+    margin-left:  7%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+#design-selection h3{
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+    margin-left: 42%;
+}
+
+#design-selection li {
+    background-color: #FFA07A;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: 0.6s;
+    text-decoraion: dotted;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 1%;
+    text-align: center;
+
+}
+
+#design-archives , #zen-resources{
+    margin-left:  7%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    color: white;
+}   
+
+#design-archives h3{
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+    margin-left: 47%;
+}
+
+#design-archives li{
+    background-color: #F08080;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: 0.6s;
+    text-decoraion: dotted;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#design-archives li:hover,#zen-resources li:hover,#design-selection li:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 30px;
+}
+
+#design-archives a,#zen-resources a,#design-selection a{
+    color: white;
+}
+
+#zen-resources h3{
+    font-size: 35px;
+    text-decoration: underline;
+    color: white;
+    margin-left: 46%;
+}
+
+#zen-resources li{
+    background-color: #B03060;
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: 0.6s;
+    text-decoraion: dotted;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 1%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
